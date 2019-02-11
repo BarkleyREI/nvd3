@@ -5,12 +5,12 @@
 Package.describe({
     "name": 'nvd3:nvd3',
     summary: 'Nvd3.org charts.',
-    version: '1.8.6-dev',
+    version: '1.8.7-dev',
     git: "https://github.com/novus/nvd3.git"
 });
 Package.on_use(function (api) {
     api.versionsFrom("METEOR@1.0");
-    api.use('d3js:d3@3.5.5', 'client');
+    api.use('d3js:d3@4.10.0', 'client');
     api.add_files('build/nv.d3.js', 'client');
     api.add_files('build/nv.d3.css', 'client');
     api.add_files('meteor/export.js', 'client');
