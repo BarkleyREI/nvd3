@@ -10,7 +10,7 @@ Package.describe({
 });
 Package.on_use(function (api) {
     api.versionsFrom("METEOR@1.0");
-    api.use('d3js:d3@4.10.0', 'client');
+    api.use('d3js:d3@5.5.0', 'client');
     api.add_files('build/nv.d3.js', 'client');
     api.add_files('build/nv.d3.css', 'client');
     api.add_files('meteor/export.js', 'client');
