@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 /* nvd3 version 1.8.6-dev (https://github.com/novus/nvd3) 2018-07-01 */
+=======
+/* nvd3 version 1.8.6-dev (https://github.com/novus/nvd3) 2019-02-11 */
+>>>>>>> Stashed changes
 (function(){
 
 // set up main nv object
